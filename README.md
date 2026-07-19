@@ -11,6 +11,8 @@ A command-line tool that fetches live stock prices from Yahoo Finance and logs t
 - Fully unit tested, including mocked API tests (no network calls needed to run the test suite)
 
 ## Project Structure
+
+```
 stock-tracker/
 ├── project.py           # Main entry point — tracks the watchlist and shows history
 ├── stock_api.py          # Fetches live prices from Yahoo Finance
@@ -20,6 +22,8 @@ stock-tracker/
 ├── test_database.py          # Unit tests for database.py
 ├── requirements.txt
 └── README.md
+```
+
 ## Setup
 
 1. Clone the repository:
