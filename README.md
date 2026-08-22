@@ -13,7 +13,7 @@ A command-line tool that fetches live stock prices from Yahoo Finance and logs t
 ## Project Structure
 
 ```
-stock-tracker/
+track-stocks/
 ├── project.py           # Main entry point — tracks the watchlist and shows history
 ├── stock_api.py          # Fetches live prices from Yahoo Finance
 ├── database.py            # All SQLite operations (watchlist + price log)
@@ -28,8 +28,8 @@ stock-tracker/
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/YOUR-USERNAME/stock-tracker.git
-   cd stock-tracker
+   git clone https://github.com/YOUR-USERNAME/track-stocks.git
+   cd track-stocks
 ```
 
 2. Create and activate a virtual environment:
